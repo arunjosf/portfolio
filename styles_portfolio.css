@@ -1,0 +1,616 @@
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#hero1{
+    scroll-margin-top: 190px;
+}
+
+#skills, #projects{
+    scroll-margin-top: 110px;
+}
+
+#contact{
+    scroll-margin-top: 100px;
+}
+.navbar-brand{
+    font-family: "Geist", sans-serif;
+
+}
+.connect_button{
+    background-color: white;
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: "Geist", sans-serif;
+    font-weight: 450;
+}
+
+.navbar-nav{
+      margin: auto;
+    }
+    .nav-link{
+        color: white;
+    }
+
+
+
+.nav-link{
+      font-size: 16px;
+      font-family: "Geist", sans-serif;
+      font-weight: 450;
+      color: rgb(172, 172, 172);
+}
+
+@media (min-width: 992px) {
+    .ms-lg-9 { margin-left: 9rem; }
+    .me-lg-9 { margin-right: 9rem; }
+}
+
+.hero-text{
+    font-size: 45px;
+    font-weight: 550;
+    font-family: "Geist", sans-serif;
+    margin-top:130px;
+    line-height: 60px;
+     background: linear-gradient(10deg, #FFFFFF, #000000); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 992px){
+.hero-text{
+    font-size: 70px;
+    font-weight: 550;
+    font-family: "Geist", sans-serif;
+    margin-top:190px;
+    line-height: 80px;
+    background: linear-gradient(10deg, #FFFFFF, #000000); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+}
+
+.hero-p{
+    font-size: 20px;
+    padding: 10px;
+}
+@media(min-width: 992px){
+    .hero-p{
+    font-size: 25px;
+    }
+}
+
+
+.text-gradient {
+  background: linear-gradient(90deg, #D316B5, #4A17DB, #D316B5);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: gradientMove 3s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+/* .text-gradient {
+  background: linear-gradient(90deg, #D316B5, #4A17DB); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text 3s linear infinite;
+}
+
+@keyframes text {
+  from {
+      background: linear-gradient(90deg, #D316B5, #4A17DB); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  to {
+      background: linear-gradient(90deg, #4A17DB, #D316B5,); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+} */
+
+
+.hero_button1{
+    background-color: #072CC2;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: "Geist", sans-serif;
+    font-weight: 450;
+    color: white;
+}
+@media(min-width: 992px){
+.hero_button1{
+    background-color: #072CC2;
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: "Geist", sans-serif;
+    font-weight: 450;
+    color: white;
+}
+}
+
+.hero_button2{
+    background-color: black;
+    border: 1.6px solid #072CC2;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: "Geist", sans-serif;
+    font-weight: 450;
+    color: white;
+}
+
+@media(min-width: 992px){
+.hero_button2{
+    background-color: black;
+    border: 1.6px solid #072CC2;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: "Geist", sans-serif;
+    font-weight: 450;
+    color: white;
+}
+}
+
+.hero-sec{
+    max-width: 1000px;
+    border-radius: 30px 30px 0 0;
+    margin-top: 75px;
+}
+
+@media(min-width: 992px){
+.hero-sec{
+    max-width: 1000px;
+    border-radius: 30px 30px 0 0;
+    margin-top: 100px;
+}
+}
+
+.sample{
+  box-shadow: 0 -6px 10px rgba(0, 123, 255, 0.5);
+}
+
+
+.sub-head{
+    padding: 22px;
+    font-size: 20px;
+    font-family: "Geist", sans-serif;
+    font-weight: 400;
+}
+
+
+@media(min-width: 992px){
+    .sub-head{
+    padding: 40px 10px 10px 0px;
+    font-size: 45px;
+    font-family: "Geist", sans-serif;
+    font-weight: 500;
+}
+}
+.image-hero{
+    height: 100px;
+    width: 100px;
+    margin-top: 110px;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(0, 123, 255, 0.5);
+}
+
+@media(min-width: 992px){
+.image-hero{
+    height: 138px;
+    width: 138px;
+    margin-top: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 1px 5px rgba(0, 123, 255, 0.5);
+}
+}
+
+
+.about-hd{
+    margin-top: 240px;
+    font-size: 15px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+@media(min-width: 992px){
+.about-hd{
+    margin-top: 375px;
+    font-size: 17px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+}
+
+.about-me{
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(195, 195, 195);
+}
+
+@media(min-width: 992px){
+.about-me{
+    padding: 5px 80px 0px 80px;
+    font-size: 17px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(195, 195, 195);
+}
+}
+
+
+.about-edu{
+    margin-top: 525px;
+    font-size: 15px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+@media(min-width: 992px){
+.about-edu{
+    margin-top: 545px;
+    font-size: 17px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+}
+
+.about-ed{
+    padding: 0px 10px 0px 10px;
+    margin-top: 13px;
+    font-size: 15px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(195, 195, 195);
+}
+
+@media(min-width: 992px){
+.about-ed{
+    padding: 0px 80px 0px 80px;
+    margin-top: 13px;
+    font-size: 17px;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(195, 195, 195);
+}
+
+}
+
+.social{
+    margin-top: 50px;
+}
+
+@media(min-width: 992px){
+.social{
+    margin-top: 80px;
+}
+}
+
+#skills{
+    margin-top: 660px;
+}
+
+
+@media(min-width: 992px){
+#skills{
+    margin-top: 290px;
+}
+}
+.skills-head{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 30px;
+}
+
+@media(min-width: 992px){
+.skills-head{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+}
+
+.skill-sub{
+    text-align: center;
+    color: rgb(207, 207, 207);
+    margin-top: 15px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media(min-width: 992px){
+.skill-sub{
+    text-align: center;
+    color: rgb(207, 207, 207);
+    margin-top: 20px;
+}
+}
+
+.card-body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    margin-top: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    box-shadow: 0 -6px 10px rgba(215, 217, 220, 0.5);
+}
+
+@media(min-width: 992px){
+.card-body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 -6px 10px rgba(215, 217, 220, 0.5);
+} 
+}
+
+.card-title{
+font-family: "Geist", sans-serif;
+padding-top: 15px;
+font-size: 17px;
+}
+
+@media(min-width: 992px){
+.card-title{
+font-family: "Geist", sans-serif;
+padding-top: 15px;
+}
+}
+
+.card-text{
+font-family: "Geist", sans-serif;
+font-size: 13px;
+color: rgb(203, 203, 203);
+}
+
+@media(min-width: 992px){
+.card-text{
+font-family: "Geist", sans-serif;
+font-size: 14px;
+color: rgb(203, 203, 203);
+}
+}
+
+
+#projects{
+    margin-top: 120px;
+}
+
+.project-head{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+
+
+#card-img{
+    width:220px; 
+    height:120px;
+}
+
+
+.card-tittle2{
+    font-family: "Geist", sans-serif;
+    font-size: 17px;
+}
+
+.card-text2{
+font-family: "Geist", sans-serif;
+font-size: 14px;
+color: rgb(203, 203, 203);
+}
+
+.form{
+    background-color: black;
+    box-shadow: 0 -6px 10px rgba(0, 123, 255, 0.5);
+    width: 270px;
+}
+
+@media(min-width: 992px){
+.form{
+    background-color: black;
+    box-shadow: 0 -6px 10px rgba(0, 123, 255, 0.5);
+    width: 500px;
+}
+}
+
+.formbg{
+    background-color: black;
+    border: 1px solid  rgb(176, 176, 176);
+    border-radius: 8px;
+    color: white;
+}
+
+.form-control::placeholder{
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+}
+
+@media(min-width: 992px){
+.form-control::placeholder{
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+}
+}
+
+.btn{
+  background-color: #072CC2;
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: "Geist", sans-serif;
+    font-weight: 450;
+    color: white;  
+    margin-top: 10px;
+}
+
+@media(min-width: 992px){
+.btn{
+  background-color: #072CC2;
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: "Geist", sans-serif;
+    font-weight: 450;
+    color: white;  
+}
+}
+
+.footer{
+width: 265px; 
+color: white;
+margin: auto;
+margin-top: 20px;
+}
+
+@media(min-width: 992px){
+.footer{
+width: 600px; 
+color: white;
+margin: auto;
+margin-top: 50px;
+}
+}
+
+.social-foot{
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media(min-width: 992px){
+.social-foot{
+    text-align: center;
+    padding-top: 50px;
+}
+}
+
+.copy{
+    color: rgb(167, 167, 167);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+@media(min-width: 992px){
+.copy{
+    color: rgb(167, 167, 167);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+}
+
+.navbar-nav :hover{
+    color: rgb(255, 255, 255);
+}
+
+.hero_button1:hover{
+    background-color: #1739c1;
+}
+
+.hero_button2:hover{
+background-color: #072CC2;
+}
+
+
+
+.formbg::placeholder {
+  color: gray; 
+}
+
+.formbg:focus {
+  background-color: black;
+  color: white;
+  border-color: #0d6efd; 
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25); 
+}
+
+
+/* .formbg:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px black;
+  -webkit-text-fill-color: white;
+} */
+
+
+.col-md-4:hover{
+  transform: scale(1.02, 1.02);
+  transition: transform 0.5s ease;
+}
+
+.card-body img{
+    animation: spin 3s linear infinite;
+    transform: scaleX(-1);
+    transition: transform 0.5s ease;
+}
+/* .card-body img{
+    transform: scaleX(-1);
+    transition: transform 0.5s ease;
+} */
+
+@keyframes spin {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatey(360deg);
+  }
+}
+
+.connect_button :hover{
+    color: #072CC2;
+}
